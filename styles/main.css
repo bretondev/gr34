@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Rock+Salt&family=Swanky+and+Moo+Moo&display=swap');
-@import "navigationBar.css";
+@import './navigationBar.css';
 
 img {
     display: block;

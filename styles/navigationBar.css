@@ -24,10 +24,6 @@
     background-color: #333;
     height: 35px;
 }
-.sidebar-separator {
-    background-color: #333;
-    height: 25px;
-}
 
 /* Closed submenu icon */
 #sidebar .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
