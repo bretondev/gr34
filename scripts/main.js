@@ -1,12 +1,6 @@
 $(document).ready(function() {
-    //loadNavigationBar();
     loadContent();
 });
-
-//function loadNavigationBar() {
-    //$("#sidebar").load("navigationBar.html");
-    //$('#sidebar .collapse').collapse('hide'); 
-//}
 
 function loadContent() {
     $("#partie-a1").load("../chapters/GR34A1.html");
