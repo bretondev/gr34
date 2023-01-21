@@ -1,11 +1,16 @@
 $(document).ready(function() {
-    loadNavigationBar();
-    loadPhotos();
+    //loadNavigationBar();
+    loadContent();
 });
 
-function loadNavigationBar() {
-    $("#sidebar").load("navigationBar.html");
-    $('#sidebar .collapse').collapse('hide'); 
+//function loadNavigationBar() {
+    //$("#sidebar").load("navigationBar.html");
+    //$('#sidebar .collapse').collapse('hide'); 
+//}
+
+function loadContent() {
+    $("#partie-a1").load("../chapters/GR34A1.html");
+    $("#partie-a2").load("../chapters/GR34A2.html", loadPhotos);
 }
 
 function loadPhotos() {
