@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Rock+Salt&family=Swanky+and+Moo+Moo&display=swap');
 @import './navigationBar.css';
 
+
+
 img {
     display: block;
     width: 50%;
@@ -10,6 +12,7 @@ img {
 
 h1 {
     font-family: 'Rock Salt', cursive;
+    margin-top : 50px;
 }
 
 p.paragraph {

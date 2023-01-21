@@ -3,8 +3,8 @@ $(document).ready(function() {
 });
 
 function loadContent() {
-    $("#partie-a1").load("./chapters/GR34A1.html");
-    $("#partie-a2").load("./chapters/GR34A2.html", loadPhotos);
+    $("#partie-a1").load("../chapters/GR34A1.html");
+    $("#partie-a2").load("../chapters/GR34A2.html", loadPhotos);
 }
 
 function loadPhotos() {
