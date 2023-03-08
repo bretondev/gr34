@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Rock+Salt&family=Swanky+and+Moo+Moo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam&family=Rock+Salt&family=Swanky+and+Moo+Moo&display=swap');
 @import './navigationBar.css';
 
 
@@ -36,9 +36,9 @@ p.hebergement {
 
 .sidebar-container {
     width: 100%;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Courgette', cursive;
 }
 
 .sidebar-submenu {
-    font-size: xx-small;
+    font-size: small;
 }
