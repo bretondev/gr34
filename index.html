@@ -18,60 +18,54 @@
         <div class="row">
 
             <div id="sidebar" class="col-2 order-2">
-                <!-- Bootstrap row -->
-                <div class="row" id="body-row">
-                    <!-- Sidebar -->
-                    <div id="sidebar-container" class="sidebar-expanded d-none d-md-block">
-                        <!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
-                        <!-- Bootstrap List Group -->
-                        <ul class="list-group">
-                            <!-- Separator with title -->
-                            <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
-                                <small>PARCOURS</small>
-                            </li>
-                            <!-- /END Separator -->
-                            <!-- Menu with submenu -->
-                            <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-start align-items-center">
-                                    <span class="fa fa-dashboard fa-fw mr-3"></span>
-                                    <span class="menu-collapsed">Dashboard</span>
-                                    <span class="submenu-icon ml-auto"></span>
-                                </div>
-                            </a>
-                            <!-- Submenu content -->
-                            <div id='submenu1' class="collapse sidebar-submenu">
-                                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
-                                    <span class="menu-collapsed">Chahgag</span>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
-                                    <span class="menu-collapsed">Reports</span>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
-                                    <span class="menu-collapsed">Tables</span>
-                                </a>
+                <div id="sidebar-container" class="sidebar-container">
+                    <ul class="list-group">
+                        <!-- Separator with title -->
+                        <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                            <small>PARCOURS</small>
+                        </li>
+                        <!-- /END Separator -->
+                        <!-- Menu with submenu -->
+                        <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-start align-items-center">
+                                <span class="fa fa-dashboard fa-fw mr-3"></span>
+                                <span class="menu-collapsed">Dashboard</span>
+                                <span class="submenu-icon ml-auto"></span>
                             </div>
-                            <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-start align-items-center">
-                                    <span class="fa fa-user fa-fw mr-3"></span>
-                                    <span class="menu-collapsed">Profile</span>
-                                    <span class="submenu-icon ml-auto"></span>
-                                </div>
+                        </a>
+                        <!-- Submenu content -->
+                        <div id='submenu1' class="collapse sidebar-submenu">
+                            <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                                <span class="menu-collapsed">Chahgag</span>
                             </a>
-                            <!-- Submenu content -->
-                            <div id='submenu2' class="collapse sidebar-submenu">
-                                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
-                                    <span class="menu-collapsed">Settings</span>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
-                                    <span class="menu-collapsed">Password</span>
-                                </a>
+                            <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                                <span class="menu-collapsed">Reports</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                                <span class="menu-collapsed">Tables</span>
+                            </a>
+                        </div>
+                        <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-start align-items-center">
+                                <span class="fa fa-user fa-fw mr-3"></span>
+                                <span class="menu-collapsed">Profile</span>
+                                <span class="submenu-icon ml-auto"></span>
                             </div>
-                            <!-- Separator without title -->
-                        
-                            <!-- /END Separator -->
-                        </ul><!-- List Group END-->
-                    </div><!-- sidebar-container END -->
-                </div><!-- body-row END -->
+                        </a>
+                        <!-- Submenu content -->
+                        <div id='submenu2' class="collapse sidebar-submenu">
+                            <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                                <span class="menu-collapsed">Settings</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                                <span class="menu-collapsed">Password</span>
+                            </a>
+                        </div>
+                        <!-- Separator without title -->
+                    
+                        <!-- /END Separator -->
+                    </ul>
+                </div>
             </div>
             
             <div id="main" class="col-10" >

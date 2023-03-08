@@ -33,3 +33,7 @@ p.jalon .jalon-city {
 p.hebergement {
     font-size: small;
 }
+
+.sidebar-container {
+    width: 100%;
+}
