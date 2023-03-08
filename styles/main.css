@@ -38,3 +38,7 @@ p.hebergement {
     width: 100%;
     font-family: 'Rock Salt', cursive;
 }
+
+.sidebar-submenu {
+    font-size: xx-small;
+}
